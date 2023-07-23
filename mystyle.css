@@ -1,70 +1,52 @@
-.main {
-  /* text-align: center;
-  margin-bottom: 20px; */
+body {
+  margin: 0;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-wrapper {
+  height: 50px;
+  width: 100%;
+  background-color: #60C7AE;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.input-wrapper>input {
   width: 95%;
-  height: 120px;
-  padding: 5px;
-  margin: 5px;
-  border: 10px solid black;
-  color: red;
-  box-sizing: border-box;
-  background-color: rgb(155, 243, 155);
-  border-radius: 10px;
-}
-input[type="text"] {
-  width: 90%;
-  padding: 25px 23px;
-  margin: 8px 0;
-  background-color: rgb(217, 244, 168);
-  align-content: center;
+  height: 50px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  text-indent: 18px;
+  padding: 0 60px 0 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px 25px 25px 5px;
+  border: 0px;
+  box-shadow: none;
+  outline: none;
+  -webkit-appearance: none;
 }
 
-/* Styling for the "+" button */
-#Add {
-  font-size: 18px;
-  background-color: white;
-  color:green;
-  border: none;
-  padding: 10px 20px;
-  margin-left: 10px;
+.input-wrapper>button {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 2;
+  border-radius: 25px;
+  background: #fff;
+  border: 0px;
+  box-shadow: none;
+  outline: none;
   cursor: pointer;
-  border-radius: 50%;
-}
-
-/* Styling for the TO DO TASKS and DONE TASKS headings */
-h2 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-/* Styling for task divs */
-div > div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid #ddd;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-/* Styling for the DONE and DELETE buttons container */
-.button-container {
-  display: flex;
-  align-items: center;
-}
-
-/* Styling for the DONE and DELETE buttons */
-button {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  margin-left: 10px;
-  cursor: pointer;
-  border-radius: 4px;
-}
-
-/* Style for DONE button in DONE TASKS section */
-#doneTasks button {
-  background-color: #2196F3;
+  -webkit-appearance: none;
 }
