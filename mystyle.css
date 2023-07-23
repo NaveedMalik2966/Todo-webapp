@@ -1,0 +1,70 @@
+.main {
+  /* text-align: center;
+  margin-bottom: 20px; */
+  width: 95%;
+  height: 120px;
+  padding: 5px;
+  margin: 5px;
+  border: 10px solid black;
+  color: red;
+  box-sizing: border-box;
+  background-color: rgb(155, 243, 155);
+  border-radius: 10px;
+}
+input[type="text"] {
+  width: 90%;
+  padding: 25px 23px;
+  margin: 8px 0;
+  background-color: rgb(217, 244, 168);
+  align-content: center;
+}
+
+/* Styling for the "+" button */
+#Add {
+  font-size: 18px;
+  background-color: white;
+  color:green;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+/* Styling for the TO DO TASKS and DONE TASKS headings */
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Styling for task divs */
+div > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the DONE and DELETE buttons container */
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for the DONE and DELETE buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Style for DONE button in DONE TASKS section */
+#doneTasks button {
+  background-color: #2196F3;
+}
